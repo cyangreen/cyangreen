@@ -52,7 +52,7 @@ ul{
 
     
     background-color: #EEEEEE;
-    border-radius: 30%;
+    border-radius: 10%;
     height: 40px;
     position: fixed;
     top: 0;
@@ -117,6 +117,10 @@ ul{
     display: flex;
     align-items: center;
 }
+
+
+
+
 
 .column-projects {
     width: 50%;
@@ -201,22 +205,29 @@ ul{
     .sub {
         margin-left: 0;
         font-size: .8em;
-        width: 400px;
-    }
-    .title {
-        font-size: .9em;
-        width: 60%;
-    }
-    .column {
-        display: block;
         width: 100%;
     }
+    .title {
+        font-size: .8em;
+        width: 60%;
+    }
+  
     .iframe iframe{
         width: 100%;
         height: 300;
         margin: auto;
     }
-   
+    .column.hide {
+        display: none;
+    }
+    .nav a {
+        font-size: .8em;
+        padding: .5em;
+    }
+    .logo-name a {
+        font-size: .8em;
+    }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -225,6 +236,13 @@ ul{
       display: block;
       margin-bottom: 20px;
     }
+  }
+
+
+  @media only screen and (min-width: 1600px) {
+      .container {
+          max-width: 1440;
+      }
   }
 
 
