@@ -30,9 +30,10 @@ ul{
 
 
 .container {
-    padding: .8em 1.2em;
+    padding: .8rem 1.2em;
     max-width: 90%;
     margin: auto;
+    display: block;
    
 }
 
@@ -74,15 +75,18 @@ ul{
     color: #00B0FF;
 }
 
+.column-projects img:hover {
+    opacity: 0.7;
+}
 
 .circle {
     position: absolute;
-    width:305px;
-    height: 305px;
+    width:280px;
+    height: 280px;
     border-radius: 50%;
     background-color: #F2F622;
     z-index: -1;
-    top: -5%;
+    top: 0;
     left: 1%;
     box-shadow: 5px 5px #E9E9EA;
 }
@@ -103,16 +107,17 @@ ul{
 
 .sub {
     margin-left:40%;
-    width: 500px;
+    width: 450px;
 }
 
 .sub h2 {
     margin-left: 8%;
 }
 
-.about, .contacts {
+.about, .contacts, .project {
     display: flex;
     align-items: center;
+    margin-top: 2%;
 }
 
 
@@ -135,8 +140,18 @@ ul{
 .column {
     width: 50%;
     float: left;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+   
 }
+
+.imageproject  {
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
 
 
 .column-projects p, h3, .contacts p {
@@ -169,6 +184,7 @@ ul{
     padding: 2em 0 1em;
     border-top-left-radius: 10%;
     border-bottom-right-radius: 5%;
+    
 }
 
 
@@ -192,6 +208,18 @@ ul{
 
 .footer {
     text-align: center;
+    
+}
+
+.footer p a, .contacts p a{
+    
+    color: inherit;
+}
+
+
+.svgmail path:hover{
+    fill: #F2F622;
+    cursor: pointer;
 }
 
 
@@ -200,9 +228,7 @@ ul{
     .circle {
         z-index: -2;
     }
-    .about-image {
-        display:none;
-    }
+   
     .sub {
         margin-left: 0;
         font-size: .8em;
@@ -234,7 +260,7 @@ ul{
 @media only screen and (max-width: 800px) {
     .column-projects, .column {
       width: 100%;
-      display: block;
+      
       margin-bottom: 20px;
     }
   }
