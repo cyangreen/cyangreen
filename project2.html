@@ -44,6 +44,50 @@
     
 
 
+    <div class="container">
+    <div style="text-align:center">
+        <h3>FashionBrain showcases design</h3>
+        <p>Click on the images below:</p>
+      </div>
+      
+      <!-- The four columns -->
+      <div class="row">
+        <div class="column-image">
+          <img src="images/fb0.png" alt="Main page" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column-image">
+          <img src="images/fb1.png" alt="Relation extraction" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column-image">
+          <img src="images/fb2.png" alt="Shop the look" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column-image">
+          <img src="images/fb3.png" alt="End-to-end search" style="width:100%" onclick="myFunction(this);">
+        </div>
+        <div class="column-image">
+          <img src="images/fb4.png" alt="Integrated arcitecture" style="width:100%" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container-image">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+        <img id="expandedImg" style="width:100%">
+        <div id="imgtext"></div>
+      </div>
+      
+    </div>
+
+
+      <script>
+      function myFunction(imgs) {
+        var expandImg = document.getElementById("expandedImg");
+        var imgText = document.getElementById("imgtext");
+        expandImg.src = imgs.src;
+        imgText.innerHTML = imgs.alt;
+        expandImg.parentElement.style.display = "block";
+      }
+      </script>
+
 
     <section class="contacts" id="contact">
         <div class="white">
