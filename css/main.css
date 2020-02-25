@@ -122,6 +122,11 @@ ul{
 
 
 
+  
+  
+
+
+
 
 
 .column-projects {
@@ -146,8 +151,7 @@ ul{
 
 .imageproject  {
     width:60%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 10% auto;
     display: block;
 }
 
@@ -224,6 +228,14 @@ ul{
 
 
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
 @media only screen and (max-width: 750px) {
     .circle {
         z-index: -2;
@@ -260,7 +272,6 @@ ul{
 @media only screen and (max-width: 800px) {
     .column-projects, .column {
       width: 100%;
-      
       margin-bottom: 20px;
     }
   }
