@@ -63,6 +63,7 @@ ul{
     top: 0;
     right: 5%;
     left: 5%;
+    z-index: 100;
     
 }
 
@@ -295,7 +296,8 @@ ul{
 
 
 
-  /* The grid: Four equal columns that floats next to each other */
+  /* Project 2 image gallery
+  The grid:  equal columns that floats next to each other */
 .column-image {
     float: left;
     width: 20%;
