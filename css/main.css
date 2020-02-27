@@ -105,6 +105,7 @@ ul{
     z-index: -1;
     animation-name: move;
     animation-duration: 4s;
+    animation-delay: 2s;
 }
 
 @keyframes move {
