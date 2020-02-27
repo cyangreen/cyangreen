@@ -94,6 +94,14 @@ ul{
     top: 0;
     left: 1%;
     box-shadow: 5px 5px #E9E9EA;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes animation1 {
+    from {background-color: #F2F622;}
+  to {background-color: #EEEEEE ;}
 }
 
 .square {
@@ -103,12 +111,12 @@ ul{
     background-color: #00B0FF;
     margin-right: 10px;
     z-index: -1;
-    animation-name: move;
+    animation-name: animation2;
     animation-duration: 4s;
-    animation-delay: 2s;
+    animation-delay: 8s;
 }
 
-@keyframes move {
+@keyframes animation2 {
     from {background-color: #00B0FF;}
   to {background-color: #F2F622 ;}
 }
