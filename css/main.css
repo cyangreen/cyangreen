@@ -103,6 +103,7 @@ ul{
     background-color: #00B0FF;
     margin-right: 10px;
     z-index: -1;
+    animation: move 1.5s ease;
 }
 
 .title {
@@ -289,7 +290,16 @@ ul{
   }
 
 
-
+@keyframes move {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+}
 
 
 
