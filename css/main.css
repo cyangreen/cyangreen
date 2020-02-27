@@ -103,8 +103,15 @@ ul{
     background-color: #00B0FF;
     margin-right: 10px;
     z-index: -1;
-    animation: move 1.5s ease;
+    animation-name: move;
+    animation-duration: 4s;
 }
+
+@keyframes move {
+    from {background-color: #00B0FF;}
+  to {background-color: #F2F622 ;}
+}
+
 
 .title {
     width: 20%;
@@ -290,16 +297,7 @@ ul{
   }
 
 
-@keyframes move {
-    0% {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateY(-30px);
-    }
-}
+
 
 
 
