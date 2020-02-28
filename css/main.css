@@ -145,19 +145,6 @@ ul{
 
 
 
-  
-  
-.logo img {
-    width: 250px;
-    padding: 3rem;
-    
-}
-
-
-
-
-
-
 
 
 
@@ -315,6 +302,63 @@ ul{
           max-width: 1440;
       }
   }
+
+
+/* Logo boxes
+   */
+
+   .container-logo {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  .item {
+    
+    padding: 5px;
+    width: 200px;
+    height: 100px;
+    margin: 2px;
+    
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+    
+  }
+  
+  
+  
+  /*Flexbox*/
+  .flex {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  
+  
+  
+  .item img {
+      width: 150px;
+      
+  }
+
+  .logo {
+      padding-top: 35px;
+  }
+
+
+
 
 
 
