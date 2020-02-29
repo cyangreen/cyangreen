@@ -55,69 +55,9 @@
         <div class="row">
         <div class="column">
             
-            <div class="slideshow-container">
-
-                <div class="mySlides fade">
-                  <div class="numbertext">1 / 3</div>
-                  <img src="images/user1.png" style="width:100%">
-                  <div class="text">Student</div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">2 / 3</div>
-                  <img src="images/user2.png" style="width:100%">
-                  <div class="text">Academic</div>
-                </div>
-                
-                <div class="mySlides fade">
-                  <div class="numbertext">3 / 3</div>
-                  <img src="images/user3.png" style="width:100%">
-                  <div class="text">NGO</div>
-                </div>
-                
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                
-                </div>
-                <br>
-                
-                <div style="text-align:center">
-                  <span class="dot" onclick="currentSlide(1)"></span> 
-                  <span class="dot" onclick="currentSlide(2)"></span> 
-                  <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-
+            <img class="user" src="images/user1.png" alt="Student user">
         </div>
 
-
-        <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
-            
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
-            }
-            
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
-            }
-            
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              if (n > slides.length) {slideIndex = 1}    
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";  
-              }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-            }
-            </script>
 
 
         <div class="column">
@@ -137,11 +77,31 @@
     </div>
 
 
+
     <div class="container">
         <div class="row">
         <div class="column">
             
-            <img class="cclogo" src="images/cclogo.png" alt="Codercats logo">
+            <img class="user" src="images/user2.png" alt="Student user">
+        </div>
+
+
+
+        <div class="column">
+            <img class="user" src="images/user3.png" alt="Student user">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+        <div class="column">
+            <h3>Design system</h3>
+            <p>
+                The design system focused on clarifying fonts and colours that would be used in the app
+                </p>
+            
 
         </div>        
 
@@ -167,10 +127,7 @@
         </div>        
 
         <div class="column">
-            <h3>Design system</h3>
-            <p>
-                The design system focused on clarifying fonts and colours that would be used in the app
-                </p>
+            <img class="cclogo" src="images/cclogo.png" alt="Codercats logo">
                 
             </div>
         </div>
