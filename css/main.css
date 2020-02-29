@@ -361,12 +361,27 @@ ul{
   .logo {
       padding-top: 35px;
   }
+/* Logo boxes end
+   */
 
 
 
 
+/* Project 1 
+   */
 
+.cclogo {
+    width: 30%;
+    margin: 10% auto;
+    display: block;
+}
 
+.ccds {
+    width: 90%;
+    margin: 10% auto;
+    display: block;
+
+}
 
 /* Project 1 slides gallery
    */
