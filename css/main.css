@@ -34,7 +34,7 @@ ul{
 
 
 .container {
-    padding: .4rem 1.2em;
+    padding: .8rem 1.2em;
     max-width: 90%;
     margin: auto;
     display: block;
@@ -165,7 +165,7 @@ ul{
 .column {
     width: 50%;
     float: left;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
    
 }
 
