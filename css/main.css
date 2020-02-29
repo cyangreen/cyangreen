@@ -169,6 +169,11 @@ ul{
    
 }
 
+.column p {
+    padding-left: 20px;
+}
+
+
 .imageproject  {
     width:60%;
     margin: 10% auto;
