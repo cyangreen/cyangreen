@@ -248,8 +248,8 @@ ul{
 }
 
 
-.svgmail path:hover{
-    fill: #F2F622;
+.svgmail:hover{
+    filter: drop-shadow(15px 15px 15px #F2F622);
     cursor: pointer;
 }
 
